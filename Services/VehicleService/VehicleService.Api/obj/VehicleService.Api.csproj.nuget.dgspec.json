@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Api/VehicleService.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Api/VehicleService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Api/VehicleService.Api.csproj",
+        "projectName": "VehicleService.Api",
+        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Api/VehicleService.Api.csproj",
+        "packagesPath": "/Users/menger/.nuget/packages/",
+        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/VehicleService.Application.csproj": {
+                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/VehicleService.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/VehicleService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/VehicleService.Application.csproj",
+        "projectName": "VehicleService.Application",
+        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/VehicleService.Application.csproj",
+        "packagesPath": "/Users/menger/.nuget/packages/",
+        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj": {
+                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj",
+        "projectName": "VehicleService.Domain",
+        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj",
+        "packagesPath": "/Users/menger/.nuget/packages/",
+        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/menger/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

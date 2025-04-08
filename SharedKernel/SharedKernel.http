@@ -1,0 +1,6 @@
+@SharedKernel_HostAddress = http://localhost:5204
+
+GET {{SharedKernel_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
