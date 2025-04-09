@@ -1,0 +1,13 @@
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/bin/Debug/net9.0/VehicleService.Domain.deps.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/bin/Debug/net9.0/VehicleService.Domain.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/bin/Debug/net9.0/VehicleService.Domain.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.csproj.AssemblyReference.cache
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.AssemblyInfoInputs.cache
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.AssemblyInfo.cs
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.csproj.CoreCompileInputs.cache
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.sourcelink.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/refint/VehicleService.Domain.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/VehicleService.Domain.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/Debug/net9.0/ref/VehicleService.Domain.dll
