@@ -1,4 +1,5 @@
 
+
 using CustomerService.Domain.Entities;
 
 namespace DeliverymanService.Domain.Entities;

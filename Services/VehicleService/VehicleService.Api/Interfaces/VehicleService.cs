@@ -1,11 +1,10 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
+
 using Microsoft.EntityFrameworkCore;
 using Shared.Data;
+using SharedKernel.Models.Domain.Models;
+using SharedKernel.Response;
 using VehicleService.Application.Interfaces;
 using VehicleService.Domain.DTOs;
-using VehicleService.Domain.Models;
-using VehicleService.Domain.Response;
 
 namespace VehicleService.Api.Interfaces;
 

@@ -1,4 +1,4 @@
-using VehicleService.Domain.Models;
+using SharedKernel.Models.Domain.Models;
 
 namespace VehicleService.Application.Interfaces;
 

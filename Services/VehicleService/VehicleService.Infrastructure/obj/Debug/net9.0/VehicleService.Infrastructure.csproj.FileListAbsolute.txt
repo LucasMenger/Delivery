@@ -1,11 +1,21 @@
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel.deps.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel.runtimeconfig.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/appsettings.Development.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/appsettings.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel.staticwebassets.endpoints.json
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Infrastructure.deps.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Infrastructure.runtimeconfig.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Infrastructure.dll
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Infrastructure.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/CustomerService.Domain.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel.dll
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Application.dll
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Domain.dll
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Application.pdb
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/VehicleService.Domain.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/CustomerService.Domain.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/SharedKernel.pdb
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/VehicleService.Infrastructure.csproj.AssemblyReference.cache
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/VehicleService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/VehicleService.Infrastructure.AssemblyInfoInputs.cache
@@ -18,3 +28,5 @@
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/VehicleService.Infrastructure.pdb
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/VehicleService.Infrastructure.genruntimeconfig.cache
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/obj/Debug/net9.0/ref/VehicleService.Infrastructure.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/Shared.Data.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Infrastructure/bin/Debug/net9.0/Shared.Data.pdb

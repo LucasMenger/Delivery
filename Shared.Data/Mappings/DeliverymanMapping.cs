@@ -1,6 +1,6 @@
-using DeliverymanService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using SharedKernel.Models.Domain.Models;
 
 namespace Shared.Data.Mappings;
 
@@ -16,7 +16,7 @@ public class DeliverymanMapping : IEntityTypeConfiguration<Deliveryman>
         builder.Property(d => d.Cnpj).IsRequired().HasMaxLength(20);
         builder.Property(d => d.CnhNumber).IsRequired().HasMaxLength(20);
         builder.Property(d => d.CnhType).IsRequired().HasMaxLength(5);
-
+        builder.Property(d => d.CnhImagePath).HasMaxLength(250); 
         builder.HasIndex(d => d.Cnpj).IsUnique();
         builder.HasIndex(d => d.CnhNumber).IsUnique();
     }

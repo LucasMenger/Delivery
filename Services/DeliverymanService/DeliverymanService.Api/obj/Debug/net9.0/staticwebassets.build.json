@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "Aa68jCZLnXbK9x6qQjK3lfd/xQpEs76ziyl0z2o2n5s=",
+  "Source": "DeliverymanService.Api",
+  "BasePath": "_content/DeliverymanService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj",
+      "Version": 2,
+      "Source": "SharedKernel",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

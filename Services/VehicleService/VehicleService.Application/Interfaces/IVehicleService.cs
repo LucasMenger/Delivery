@@ -1,6 +1,6 @@
+using SharedKernel.Models.Domain.Models;
+using SharedKernel.Response;
 using VehicleService.Domain.DTOs;
- using VehicleService.Domain.Models;
- using VehicleService.Domain.Response;
  
  namespace VehicleService.Application.Interfaces;
  

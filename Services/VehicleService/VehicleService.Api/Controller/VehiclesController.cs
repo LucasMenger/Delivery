@@ -2,10 +2,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using VehicleService.Application.Interfaces;
 using VehicleService.Domain.DTOs;
-using VehicleService.Domain.Response;
 
 namespace VehicleService.Api.Controller;
 
+[ApiController]
+[Route("motos")]
 public class VehiclesController(IVehicleService vehicleService) : ControllerBase
 {
     private readonly IVehicleService _vehicleService = vehicleService;

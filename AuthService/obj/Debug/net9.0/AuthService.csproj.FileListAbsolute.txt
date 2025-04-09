@@ -32,6 +32,7 @@
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/AuthService.csproj.CoreCompileInputs.cache
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/AuthService.MvcApplicationPartsAssemblyInfo.cs
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/AuthService.MvcApplicationPartsAssemblyInfo.cache
+/Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/AuthService.sourcelink.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/scopedcss/bundle/AuthService.styles.css
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/staticwebassets.build.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/AuthService/obj/Debug/net9.0/staticwebassets.development.json

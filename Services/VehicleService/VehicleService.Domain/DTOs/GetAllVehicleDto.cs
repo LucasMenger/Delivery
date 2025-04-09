@@ -1,3 +1,5 @@
+using SharedKernel;
+
 namespace VehicleService.Domain.DTOs;
 
 public class GetAllVehicleDto

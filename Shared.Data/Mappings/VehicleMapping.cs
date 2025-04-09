@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using VehicleService.Domain.Models;
+using SharedKernel.Models.Domain.Models;
 
 namespace Shared.Data.Mappings;
 

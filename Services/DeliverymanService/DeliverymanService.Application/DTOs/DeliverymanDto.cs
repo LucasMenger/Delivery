@@ -7,4 +7,5 @@ public class DeliverymanDto
     public DateTime BirthDate { get; set; }
     public string CnhNumber { get; set; }
     public string CnhType { get; set; }
+    public string ImageCnhBase64 { get; set; } = default!;
 }

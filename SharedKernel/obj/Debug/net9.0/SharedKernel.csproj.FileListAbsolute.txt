@@ -15,6 +15,7 @@
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.csproj.CoreCompileInputs.cache
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.MvcApplicationPartsAssemblyInfo.cs
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.MvcApplicationPartsAssemblyInfo.cache
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.sourcelink.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/scopedcss/bundle/SharedKernel.styles.css
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/staticwebassets.build.json
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/staticwebassets.development.json

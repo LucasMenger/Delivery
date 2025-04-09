@@ -51,6 +51,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -161,11 +169,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/DeliverymanService.Domain.csproj": {
-                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/DeliverymanService.Domain.csproj"
-              },
-              "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj": {
-                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj"
+              "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/Shared.Data.csproj": {
+                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/Shared.Data.csproj"
               }
             }
           }
@@ -205,14 +210,14 @@
         }
       }
     },
-    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/DeliverymanService.Domain.csproj": {
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/Shared.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/DeliverymanService.Domain.csproj",
-        "projectName": "DeliverymanService.Domain",
-        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/DeliverymanService.Domain.csproj",
+        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/Shared.Data.csproj",
+        "projectName": "Shared.Data",
+        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/Shared.Data.csproj",
         "packagesPath": "/Users/menger/.nuget/packages/",
-        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/DeliverymanService/DeliverymanService.Domain/obj/",
+        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Shared.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/menger/.nuget/NuGet/NuGet.Config"
@@ -226,7 +231,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj": {
+                "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -244,6 +253,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -264,14 +283,14 @@
         }
       }
     },
-    "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj": {
+    "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj",
-        "projectName": "VehicleService.Domain",
-        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/VehicleService.Domain.csproj",
+        "projectUniqueName": "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj",
+        "projectName": "SharedKernel",
+        "projectPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/SharedKernel.csproj",
         "packagesPath": "/Users/menger/.nuget/packages/",
-        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/Services/VehicleService/VehicleService.Domain/obj/",
+        "outputPath": "/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/menger/.nuget/NuGet/NuGet.Config"
@@ -304,13 +323,17 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.3, )"
+              "version": "[9.0.4, )"
             },
-            "System.Configuration.ConfigurationManager": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[4.5.0, )"
+              "version": "[9.0.4, )"
             }
           },
           "imports": [
@@ -325,6 +348,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

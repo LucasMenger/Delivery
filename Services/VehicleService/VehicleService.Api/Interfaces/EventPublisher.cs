@@ -1,9 +1,6 @@
-using System.Text;
-using System.Text.Json;
-using Microsoft.EntityFrameworkCore.Metadata;
-using RabbitMQ.Client;
+
+using SharedKernel.Models.Domain.Models;
 using VehicleService.Application.Interfaces;
-using VehicleService.Domain.Models;
 
 namespace VehicleService.Api.Interfaces;
 

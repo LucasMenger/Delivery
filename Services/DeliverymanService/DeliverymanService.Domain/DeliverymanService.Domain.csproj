@@ -8,10 +8,20 @@
 
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+    <Compile Remove="Entities\**" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\CustomerService\CustomerService.Domain\CustomerService.Domain.csproj" />
+    <ProjectReference Include="..\CustomerService\CustomerService.Domain\CustomerService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\**" />
   </ItemGroup>
 
 </Project>

@@ -7,8 +7,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DeliverymanService\DeliverymanService.Domain\DeliverymanService.Domain.csproj" />
-    <ProjectReference Include="..\..\VehicleService\VehicleService.Domain\VehicleService.Domain.csproj" />
+    <ProjectReference Include="..\DeliverymanService\DeliverymanService.Domain\DeliverymanService.Domain.csproj" />
+    <ProjectReference Include="..\..\..\Shared.Data\Shared.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Entities\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Entities\**" />
   </ItemGroup>
 
 </Project>

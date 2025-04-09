@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Shared.Data;
+using SharedKernel.Common.Api;
 using VehicleService.Api.Interfaces;
 using VehicleService.Application.Interfaces;
 
@@ -7,24 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.AddCrossOrigin();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("Postgres")));
 
-builder.Services.AddCors(options => 
-{
-    options.AddDefaultPolicy(
-        builder =>
-        {
-            builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
-        });
-});
+
 builder.Services.AddTransient<IVehicleService, VehicleService.Api.Interfaces.VehicleService>();
 builder.Services.AddScoped<IEventPublisher, EventPublisher>();
 
-
 var app = builder.Build();
-
 
 if (app.Environment.IsDevelopment())
 {
