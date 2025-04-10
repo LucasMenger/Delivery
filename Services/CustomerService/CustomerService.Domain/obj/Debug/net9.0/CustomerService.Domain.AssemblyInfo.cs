@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustomerService.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f19268f12a8f9ae2a58d109115f380c180943e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cab6ecfc52c116cfeeec2de3a3962fc48e42c405")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustomerService.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustomerService.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

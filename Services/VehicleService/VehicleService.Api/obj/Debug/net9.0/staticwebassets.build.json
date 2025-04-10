@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HBldNziewXAtN3zXdoKq4hQHKqlALGdIxDGYrfR+Yis=",
+  "Hash": "4puiRLnAWQ2Xiy4e+T+1ioCOeOvu6UUfYw5k6pjLTFk=",
   "Source": "VehicleService.Api",
   "BasePath": "_content/VehicleService.Api",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "SharedKernel",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

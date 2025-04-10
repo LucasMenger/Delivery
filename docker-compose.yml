@@ -1,0 +1,116 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_db
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: mottu
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - mottu-network
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - mottu-network
+
+  redis:
+    image: redis:alpine
+    container_name: redis
+    ports:
+      - "6379:6379"
+    networks:
+      - mottu-network
+
+  apigateway:
+    build:
+      context: ./ApiGateway
+    container_name: apigateway
+    ports:
+      - "5000:80"
+    depends_on:
+      - authservice
+      - userservice
+      - deliverymanservice
+      - vehicleservice
+      - customerservice
+    networks:
+      - mottu-network
+
+  authservice:
+    build:
+      context: ./AuthService
+    container_name: authservice
+    ports:
+      - "5001:80"
+    depends_on:
+      - postgres
+    networks:
+      - mottu-network
+
+  userservice:
+    build:
+      context: ./UserService
+    container_name: userservice
+    ports:
+      - "5002:80"
+    depends_on:
+      - postgres
+    networks:
+      - mottu-network
+
+  deliverymanservice:
+    build:
+      context: ./Services/DeliverymanService/DeliverymanService.Api
+    container_name: deliverymanservice
+    ports:
+      - "5003:80"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - mottu-network
+
+  customerservice:
+    build:
+      context: ./Services/CustomerService/CustomerService.Api
+    container_name: customerservice
+    ports:
+      - "5004:80"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - mottu-network
+
+  vehicleservice:
+    build:
+      context: ./Services/VehicleService/VehicleService.Api
+    container_name: vehicleservice
+    ports:
+      - "5005:80"
+    depends_on:
+      - postgres
+      - rabbitmq
+    networks:
+      - mottu-network
+
+volumes:
+  pgdata:
+
+networks:
+  mottu-network:
+    driver: bridge
