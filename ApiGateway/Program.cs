@@ -20,8 +20,13 @@ builder.Services.AddCors(options =>
         });
 });
 
-var app = builder.Build();
+builder.Services.AddSwaggerForOcelot(builder.Configuration);
 
+var app = builder.Build();
+app.UseSwaggerForOcelotUI(opt =>
+{
+    opt.PathToSwaggerGenerator = "/swagger/docs";
+});
 app.UseCors();
 app.UseHttpsRedirection();
 app.UseAuthentication();
