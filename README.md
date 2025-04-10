@@ -1,4 +1,4 @@
-# 🚀 Projeto de Microserviços com .NET 8, Docker e Ocelot
+# 🚀 Projeto de Microserviços com .NET 9, Docker e Ocelot
 
 Este projeto é composto por múltiplos microserviços, cada um com seu próprio contexto, utilizando .NET 8, arquitetura Clean Architecture e Ocelot como API Gateway. Todos os serviços rodam em containers Docker orquestrados via `docker-compose`.
 
@@ -26,6 +26,39 @@ Host=postgres;Port=5432;Database=microservices_db;Username=postgres;Password=pos
 
 
 > O nome do host `postgres` é usado porque o container do banco se chama `postgres` no `docker-compose.yml`.
+
+
+---
+
+## 🧪 Rodando os Microserviços Localmente
+Na raiz do projeto, execute:
+
+./run-all.sh
+
+Esse script:
+
+Encerra qualquer processo rodando nas portas 7000 a 7007
+
+Sobe todos os microserviços localmente via dotnet run
+
+
+---
+
+## 🔐 Autenticação
+
+Para utilizar os endpoints protegidos, é necessário realizar o login via `AuthService`.  
+O login retorna um **JWT token**, que deve ser usado no header das requisições:
+
+**Endpoint de login:**
+
+POST http://localhost:7001/api/auth/login
+
+**Exemplo de uso do token:**
+
+http
+Authorization: Bearer <seu_token_jwt>
+
+
 
 ---
 
@@ -57,7 +90,6 @@ PostgreSQL	5432	User=postgres, Password=postgres
 
 --
 📦 TODOs Futuro
-Adicionar Swagger para cada serviço
 
 Implementar autenticação JWT entre microserviços
 
