@@ -32,3 +32,16 @@
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.pdb
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/SharedKernel.genruntimeconfig.cache
 /Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/obj/Debug/net9.0/ref/SharedKernel.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Npgsql.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/SharedKernel/bin/Debug/net9.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

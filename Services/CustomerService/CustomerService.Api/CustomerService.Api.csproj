@@ -16,4 +16,8 @@
     <ProjectReference Include="..\CustomerService.Application\CustomerService.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Interfaces\SeedRentalPlansAsync.cs" />
+  </ItemGroup>
+
 </Project>

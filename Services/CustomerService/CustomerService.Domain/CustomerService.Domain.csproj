@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <Compile Remove="Entities\**" />
+    <Compile Remove="Class1.cs" />
   </ItemGroup>
 
   <ItemGroup>

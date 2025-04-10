@@ -706,7 +706,9 @@
       },
       "SharedKernel/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "9.0.1"
+          "Microsoft.AspNetCore.OpenApi": "9.0.1",
+          "Microsoft.EntityFrameworkCore": "9.0.4",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
         "runtime": {
           "SharedKernel.dll": {

@@ -57,3 +57,6 @@
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/SharedKernel.dll
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/Shared.Data.pdb
 /Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/SharedKernel.pdb
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/menger/Documents/IANavChat/_NavCode_Api/Services/CustomerService/CustomerService.Api/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
