@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Shared.Data;
+using SharedKernel;
 using SharedKernel.Common.Api;
 using VehicleService.Api.Interfaces;
 using VehicleService.Application.Interfaces;
@@ -29,6 +30,6 @@ app.UseSwagger();
 app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.MapControllers();
-
+app.UseMiddleware<RestrictAccessMiddleware>();
 app.Run();
 

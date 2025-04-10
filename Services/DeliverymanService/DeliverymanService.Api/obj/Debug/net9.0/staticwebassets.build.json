@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aa68jCZLnXbK9x6qQjK3lfd/xQpEs76ziyl0z2o2n5s=",
+  "Hash": "kFNkhpCIM6qOZSz7c7LSR6OE/1QuqahTb2oQmYhIIaY=",
   "Source": "DeliverymanService.Api",
   "BasePath": "_content/DeliverymanService.Api",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "SharedKernel",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

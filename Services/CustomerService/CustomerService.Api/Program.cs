@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Shared.Data;
+using SharedKernel;
 using SharedKernel.Common.Api;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,6 +21,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<RestrictAccessMiddleware>();
 app.Run();
 

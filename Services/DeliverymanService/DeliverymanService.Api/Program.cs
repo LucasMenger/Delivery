@@ -1,6 +1,7 @@
 using DeliverymanService.Application.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Shared.Data;
+using SharedKernel;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,6 +31,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<RestrictAccessMiddleware>();
 
 app.Run();

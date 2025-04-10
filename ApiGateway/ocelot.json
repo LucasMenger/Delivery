@@ -73,18 +73,6 @@
         "Limit": 2
       },
       "Key": "userService"
-    },
-    {
-      "DownstreamPathTemplate": "/api/wooba",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "localhost",
-          "Port": 7004
-        }
-      ],
-      "UpstreamPathTemplate": "/api/wooba",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
   ],
   
